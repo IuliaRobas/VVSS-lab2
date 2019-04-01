@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb32d70-bed7-4fa1-b84b-7c1ebdf4d0e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LabAssiAsseProjectV01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LabAssiAsseRequirements .pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ana.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maria.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/console/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/HasID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Tema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/AbstractCRUDRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/AbstractFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/AbstractXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/CRUDRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/NotaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/NotaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/NotaXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/StudentFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/StudentXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TemaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TemaXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/NotaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/StudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/TemaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studenti.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/console/UI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/domain/HasID.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/domain/Nota.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/domain/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/domain/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/domain/Tema.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/AbstractCRUDRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/AbstractFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/AbstractXMLRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/CRUDRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/NotaFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/NotaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/NotaXMLRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentXMLRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/TemaFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/TemaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/TemaXMLRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation/NotaValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation/StudentValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation/TemaValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation/ValidationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation/Validator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vasile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/console/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/console/UI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,8 +79,8 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/console/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="216" column="31" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="225" column="5" lean-forward="true" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
               <folding>
                 <element signature="e#6277#6278#0" expanded="true" />
                 <element signature="e#6356#6357#0" expanded="true" />
@@ -238,7 +166,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="114" />
     <option name="width" value="1425" />
     <option name="height" value="827" />
@@ -586,15 +514,16 @@
       <workItem from="1554027461720" duration="469000" />
       <workItem from="1554028001835" duration="1310000" />
       <workItem from="1554029456761" duration="1539000" />
-      <workItem from="1554098910467" duration="1768000" />
+      <workItem from="1554098910467" duration="2455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5586000" />
+    <option name="totallyTimeSpent" value="6273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="0" width="1425" height="827" extended-state="1" />
+    <frame x="114" y="0" width="1425" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1003,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/console/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="216" column="31" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="225" column="5" lean-forward="true" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
           <folding>
             <element signature="e#6277#6278#0" expanded="true" />
             <element signature="e#6356#6357#0" expanded="true" />
