@@ -26,7 +26,6 @@ public class TestClass {
 
     @Test
     public void testAddAssignment1() {
-        Assert.assertEquals(1, 1);
         String id = "100";
         String description = "descr";
         int deadline = 7;
@@ -42,7 +41,6 @@ public class TestClass {
 
     @Test
     public void testAddAssignment2() {
-        Assert.assertEquals(1, 1);
         String id = "100";
         String description = "descr";
         int deadline = 9;

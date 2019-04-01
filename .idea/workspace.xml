@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb32d70-bed7-4fa1-b84b-7c1ebdf4d0e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/HasID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Tema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractCRUDRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/CRUDRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/TemaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestClass.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestClass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/repository/AbstractCRUDRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -52,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/note.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/repository/AbstractXMLRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="584">
-              <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
+              <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -69,8 +99,8 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="105">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1490#1491#0" expanded="true" />
@@ -146,7 +176,7 @@
       <find>uiSaveStudent</find>
       <find>runtTes</find>
       <find>save</find>
-      <find />
+      <find>Entitatea nu este</find>
       <find>saveSt</find>
       <find>run</find>
       <find>Entitatea</find>
@@ -209,9 +239,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="587" />
-    <option name="width" value="952" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="1069" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -655,23 +685,11 @@
       <workItem from="1554027461720" duration="469000" />
       <workItem from="1554028001835" duration="1310000" />
       <workItem from="1554029456761" duration="1539000" />
-      <workItem from="1554098910467" duration="5921000" />
+      <workItem from="1554098910467" duration="7705000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UI_runtTest5 - 2019.04.01 at 10h 14m 37s.xml">
-      <configuration name="UI.runtTest5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UI_runtTest7 - 2019.04.01 at 10h 15m 28s.xml">
-      <configuration name="UI.runtTest7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UI_runtTest7 - 2019.04.01 at 10h 16m 50s.xml">
-      <configuration name="UI.runtTest7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UI_runtTest7 - 2019.04.01 at 10h 16m 59s.xml">
-      <configuration name="UI.runtTest7" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UI_runtTest8 - 2019.04.01 at 10h 18m 34s.xml">
       <configuration name="UI.runtTest8" configurationId="JUnit" />
     </history-entry>
@@ -690,13 +708,24 @@
     <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 11h 03m 51s.xml">
       <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestClass_testAddAssignment2 - 2019.04.01 at 11h 09m 57s.xml">
+      <configuration name="TestClass.testAddAssignment2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddAssignment2 - 2019.04.01 at 11h 10m 00s.xml">
+      <configuration name="TestClass.testAddAssignment2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 11h 10m 06s.xml">
+      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.04.01 at 11h 10m 25s.xml">
+      <configuration name="TestClass" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9739000" />
+    <option name="totallyTimeSpent" value="11523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1544" height="832" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3" y="0" width="1069" height="827" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -704,15 +733,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3729041" side_tool="true" visible="true" weight="0.43874645" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10127431" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.37297922" side_tool="true" weight="0.44189382" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3484252" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62709594" visible="true" weight="0.43874645" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6270208" visible="true" weight="0.44189382" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17437962" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30023095" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
@@ -729,6 +758,38 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Maven-2 Build" order="9" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6270208" visible="true" weight="0.44189382" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.37297922" side_tool="true" visible="true" weight="0.44189382" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.6934943" weight="0.23076923" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1743649" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30023095" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49489796" weight="0.39885223" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1070,14 +1131,14 @@
     <entry file="file://$PROJECT_DIR$/src/repository/AbstractXMLRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
-          <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
+          <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repository/AbstractCRUDRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1155,7 @@
     <entry file="file://$PROJECT_DIR$/note.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1106,8 +1167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1490#1491#0" expanded="true" />
@@ -1141,7 +1202,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1189,7 +1250,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
