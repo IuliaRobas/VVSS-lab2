@@ -3,39 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="beb32d70-bed7-4fa1-b84b-7c1ebdf4d0e5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/1-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/console/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/HasID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Nota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Tema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractCRUDRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/CRUDRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaXMLRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validation/NotaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validation/StudentValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validation/TemaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validation/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validation/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestClass.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestClass.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +66,8 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="222">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1490#1491#0" expanded="true" />
@@ -239,9 +206,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
-    <option name="width" value="1069" />
+    <option name="width" value="774" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -344,31 +311,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestClass">
-    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestClass.testAddStudent5">
+    <configuration name="TestClass.testAddStudent1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestClass.testAddAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabAssiAsseProjectV01" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="testAddAssignment" />
+      <option name="METHOD_NAME" value="testAddStudent1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -379,13 +329,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestClass.testAddAssignment1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.testAddStudent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="testAddAssignment1" />
+      <option name="METHOD_NAME" value="testAddStudent2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -396,13 +346,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestClass.testAddAssignment2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.testAddStudent3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="testAddAssignment2" />
+      <option name="METHOD_NAME" value="testAddStudent3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -413,19 +363,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UI.runtTest8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.testAddStudent4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="console.UI" />
-      <option name="METHOD_NAME" value="runtTest8" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testAddStudent4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestClass.testAddStudent5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testAddStudent5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -654,19 +615,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UI.runtTest8" />
-      <item itemvalue="JUnit.TestClass.testAddAssignment" />
-      <item itemvalue="JUnit.TestClass" />
-      <item itemvalue="JUnit.TestClass.testAddAssignment1" />
-      <item itemvalue="JUnit.TestClass.testAddAssignment2" />
+      <item itemvalue="JUnit.TestClass.testAddStudent1" />
+      <item itemvalue="JUnit.TestClass.testAddStudent2" />
+      <item itemvalue="JUnit.TestClass.testAddStudent3" />
+      <item itemvalue="JUnit.TestClass.testAddStudent4" />
+      <item itemvalue="JUnit.TestClass.testAddStudent5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClass" />
-        <item itemvalue="JUnit.TestClass.testAddAssignment1" />
-        <item itemvalue="JUnit.TestClass.testAddAssignment2" />
-        <item itemvalue="JUnit.TestClass.testAddAssignment" />
-        <item itemvalue="JUnit.UI.runtTest8" />
+        <item itemvalue="JUnit.TestClass.testAddStudent5" />
+        <item itemvalue="JUnit.TestClass.testAddStudent4" />
+        <item itemvalue="JUnit.TestClass.testAddStudent3" />
+        <item itemvalue="JUnit.TestClass.testAddStudent2" />
+        <item itemvalue="JUnit.TestClass.testAddStudent1" />
       </list>
     </recent_temporary>
   </component>
@@ -685,47 +646,47 @@
       <workItem from="1554027461720" duration="469000" />
       <workItem from="1554028001835" duration="1310000" />
       <workItem from="1554029456761" duration="1539000" />
-      <workItem from="1554098910467" duration="7705000" />
+      <workItem from="1554098910467" duration="8624000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UI_runtTest8 - 2019.04.01 at 10h 18m 34s.xml">
-      <configuration name="UI.runtTest8" configurationId="JUnit" />
+    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 18h 57m 54s.xml">
+      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testAddAssignment - 2019.04.01 at 10h 19m 53s.xml">
-      <configuration name="TestClass.testAddAssignment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.04.01 at 10h 23m 12s.xml">
+    <history-entry file="TestClass - 2019.04.01 at 18h 58m 09s.xml">
       <configuration name="TestClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 10h 45m 48s.xml">
-      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 11h 02m 43s.xml">
-      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 11h 03m 51s.xml">
-      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass_testAddAssignment2 - 2019.04.01 at 11h 09m 57s.xml">
-      <configuration name="TestClass.testAddAssignment2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass_testAddAssignment2 - 2019.04.01 at 11h 10m 00s.xml">
-      <configuration name="TestClass.testAddAssignment2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 11h 10m 06s.xml">
-      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.04.01 at 11h 10m 25s.xml">
+    <history-entry file="TestClass - 2019.04.01 at 18h 59m 03s.xml">
       <configuration name="TestClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddAssignment1 - 2019.04.01 at 18h 59m 10s.xml">
+      <configuration name="TestClass.testAddAssignment1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddAssignment2 - 2019.04.01 at 18h 59m 13s.xml">
+      <configuration name="TestClass.testAddAssignment2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddStudent1 - 2019.04.01 at 18h 59m 19s.xml">
+      <configuration name="TestClass.testAddStudent1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddStudent2 - 2019.04.01 at 18h 59m 22s.xml">
+      <configuration name="TestClass.testAddStudent2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddStudent3 - 2019.04.01 at 18h 59m 25s.xml">
+      <configuration name="TestClass.testAddStudent3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddStudent4 - 2019.04.01 at 18h 59m 28s.xml">
+      <configuration name="TestClass.testAddStudent4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_testAddStudent5 - 2019.04.01 at 18h 59m 32s.xml">
+      <configuration name="TestClass.testAddStudent5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11523000" />
+    <option name="totallyTimeSpent" value="12442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1069" height="827" extended-state="0" />
+    <frame x="-4" y="-4" width="1544" height="832" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -734,14 +695,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.37297922" side_tool="true" weight="0.44189382" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3484252" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.25754526" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6270208" visible="true" weight="0.44189382" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6270208" visible="true" weight="0.43874645" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30023095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.032863848" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
@@ -810,7 +771,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1167,8 +1128,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="222">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1490#1491#0" expanded="true" />
