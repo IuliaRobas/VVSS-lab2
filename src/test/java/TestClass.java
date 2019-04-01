@@ -27,6 +27,33 @@ public class TestClass {
     @Test
     public void testAddAssignment1() {
         Assert.assertEquals(1, 1);
+        String id = "100";
+        String description = "descr";
+        int deadline = 7;
+        int startline = 9;
+
+        if (deadline<startline){
+            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 1);
+        }
+        else{
+            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 0);
+        }
+    }
+
+    @Test
+    public void testAddAssignment2() {
+        Assert.assertEquals(1, 1);
+        String id = "100";
+        String description = "descr";
+        int deadline = 9;
+        int startline = 7;
+
+        if (service.getTemaXmlRepo().findOne(id)==null){
+            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 1);
+        }
+        else{
+            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 0);
+        }
     }
 
     /*Test case correct input for all fields*/

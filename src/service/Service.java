@@ -9,6 +9,31 @@ import java.util.Locale;
 
 public class Service {
     private StudentXMLRepository studentXmlRepo;
+
+    public StudentXMLRepository getStudentXmlRepo() {
+        return studentXmlRepo;
+    }
+
+    public void setStudentXmlRepo(StudentXMLRepository studentXmlRepo) {
+        this.studentXmlRepo = studentXmlRepo;
+    }
+
+    public TemaXMLRepository getTemaXmlRepo() {
+        return temaXmlRepo;
+    }
+
+    public void setTemaXmlRepo(TemaXMLRepository temaXmlRepo) {
+        this.temaXmlRepo = temaXmlRepo;
+    }
+
+    public NotaXMLRepository getNotaXmlRepo() {
+        return notaXmlRepo;
+    }
+
+    public void setNotaXmlRepo(NotaXMLRepository notaXmlRepo) {
+        this.notaXmlRepo = notaXmlRepo;
+    }
+
     private TemaXMLRepository temaXmlRepo;
     private NotaXMLRepository notaXmlRepo;
 
