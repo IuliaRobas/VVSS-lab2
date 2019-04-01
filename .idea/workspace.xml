@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="285">
               <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TEST.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TEST.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TEST.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -172,8 +172,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="916" />
-    <option name="width" value="623" />
+    <option name="x" value="587" />
+    <option name="width" value="952" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -612,7 +612,7 @@
       <workItem from="1554027461720" duration="469000" />
       <workItem from="1554028001835" duration="1310000" />
       <workItem from="1554029456761" duration="1539000" />
-      <workItem from="1554098910467" duration="3690000" />
+      <workItem from="1554098910467" duration="4001000" />
     </task>
     <servers />
   </component>
@@ -640,10 +640,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7508000" />
+    <option name="totallyTimeSpent" value="7819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="916" y="0" width="623" height="827" extended-state="0" />
+    <frame x="587" y="0" width="952" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -651,15 +652,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50701755" side_tool="true" visible="true" weight="0.2826399" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5072303" side_tool="true" visible="true" weight="0.2826399" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49298245" visible="true" weight="0.2826399" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49276975" visible="true" weight="0.2826399" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45614034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28921023" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
@@ -1022,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/console/UI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1060,6 +1054,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TEST.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
