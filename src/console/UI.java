@@ -186,52 +186,6 @@ public class UI {
         }
     }
 
-    public void runtTests() {
-        runtTest3();
-        runtTest4();
-        runtTest5();
-        runtTest6();
-        runtTest7();
-        runtTest8();
-    }
-
-    /*Test case correct input for all fields*/
-    @Test
-    public void runtTest3() {
-        Assert.assertEquals(service.saveStudent("101", "Andrei", 936),0);
-    }
-
-    /*Test case for invalid id*/
-    @Test
-    public void runtTest4() {
-        Assert.assertEquals(service.saveStudent("-1", "Andrei", 936),0);
-    }
-
-    /*Test case for invalid name*/
-    @Test
-    public void runtTest5() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei12", 936),0);
-    }
-
-    /*Test case for invalid name*/
-    @Test
-    public void runtTest6() {
-        Assert.assertEquals(service.saveStudent("105", "", 936),1);
-    }
-
-    /*Test case for invalid group*/
-    @Test
-    public void runtTest7() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei", -1),1);
-    }
-
-    /*Test case for invalid group*/
-    @Test
-    public void runtTest8() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei", Integer.MAX_VALUE+1),1);
-    }
-
-
     public void run() {
         Scanner scanner = new Scanner(System.in);
         int cmd = -1;
