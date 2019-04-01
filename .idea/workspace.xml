@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb32d70-bed7-4fa1-b84b-7c1ebdf4d0e5" name="Default" comment="" />
+    <list default="true" id="beb32d70-bed7-4fa1-b84b-7c1ebdf4d0e5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/HasID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Tema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractCRUDRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/AbstractXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/CRUDRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/NotaXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/StudentXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/TemaXMLRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/TemaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="304">
               <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
@@ -65,13 +93,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="141">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
                 <element signature="e#1046#1047#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -80,11 +109,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TEST.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TEST.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
@@ -130,7 +154,7 @@
       <find>uiSaveStudent</find>
       <find>runtTes</find>
       <find>save</find>
-      <find>Entitatea nu este</find>
+      <find />
       <find>saveSt</find>
       <find>run</find>
       <find>Entitatea</find>
@@ -168,10 +192,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="587" />
     <option name="width" value="952" />
     <option name="height" value="827" />
@@ -262,7 +302,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestClass">
+  <component name="RunManager" selected="JUnit.TestClass.testAddAssignment1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -317,19 +357,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UI.runtTest7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.testAddAssignment1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="console" />
-      <option name="MAIN_CLASS_NAME" value="console.UI" />
-      <option name="METHOD_NAME" value="runtTest7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testAddAssignment1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -582,18 +616,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.UI.runtTest7" />
       <item itemvalue="JUnit.UI.runtTest8" />
       <item itemvalue="JUnit.TestClass.testAddAssignment" />
       <item itemvalue="JUnit.TestClass" />
+      <item itemvalue="JUnit.TestClass.testAddAssignment1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClass.testAddAssignment1" />
         <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.TestClass.testAddAssignment" />
         <item itemvalue="JUnit.UI.runtTest8" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UI.runtTest7" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +646,7 @@
       <workItem from="1554027461720" duration="469000" />
       <workItem from="1554028001835" duration="1310000" />
       <workItem from="1554029456761" duration="1539000" />
-      <workItem from="1554098910467" duration="4001000" />
+      <workItem from="1554098910467" duration="4481000" />
     </task>
     <servers />
   </component>
@@ -640,10 +674,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7819000" />
+    <option name="totallyTimeSpent" value="8299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="587" y="0" width="952" height="827" extended-state="0" />
+    <frame x="-4" y="-4" width="1544" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -652,15 +686,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5072303" side_tool="true" visible="true" weight="0.2826399" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3729041" side_tool="true" visible="true" weight="0.32621083" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49276975" visible="true" weight="0.2826399" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62709594" visible="true" weight="0.32621083" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28921023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17437962" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
@@ -1037,28 +1071,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEST.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="141">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
             <element signature="e#1046#1047#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
             <element signature="e#870#871#0" expanded="true" />
             <element signature="e#949#950#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TEST.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1114,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1127,7 +1162,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.4</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
