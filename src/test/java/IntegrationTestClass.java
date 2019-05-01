@@ -12,7 +12,7 @@ import validation.StudentValidator;
 import validation.TemaValidator;
 import validation.Validator;
 
-public class TestClass {
+public class IntegrationTestClass {
 
     Validator<Student> studentValidator = new StudentValidator();
     Validator<Tema> temaValidator = new TemaValidator();
@@ -26,7 +26,7 @@ public class TestClass {
 
     @Test
     public void testAddAssignment1() {
-        String id = "100";
+        String id = "10";
         String description = "descr";
         int deadline = 7;
         int startline = 9;
@@ -39,56 +39,44 @@ public class TestClass {
     }
 
     @Test
-    public void testAddAssignment2() {
-        String id = "100";
-        String description = "descr";
-        int deadline = 9;
-        int startline = 7;
-
-        if (service.getTemaXmlRepo().findOne(id) == null) {
-            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 1);
-        } else {
-            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 0);
-        }
+    public void testAddGrade1() {
+        Assert.assertEquals(service.saveNota("2", "3", 5, 7, "good job"), 0);
     }
 
-    /*Test case correct input for all fields*/
     @Test
     public void testAddStudent1() {
         Assert.assertEquals(service.saveStudent("101", "Andrei", 936), 0);
     }
 
-    /*Test case for invalid id*/
     @Test
-    public void testAddStudent2() {
-        Assert.assertEquals(service.saveStudent("-1", "Andrei", 936), 0);
+    public void testAddStudentIntegration(){
+        Assert.assertEquals(service.saveStudent("200", "Cristi", 936), 1);
     }
 
-    /*Test case for invalid name*/
     @Test
-    public void testAddStudent3() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei12", 936), 0);
+    public void testAddAssignmentIntegration(){
+        testAddStudentIntegration();
+        Assert.assertEquals(service.saveTema("200", "assignCristi", 10, 7), 1);
     }
 
-    /*Test case for invalid name*/
     @Test
-    public void testAddStudent4() {
-        Assert.assertEquals(service.saveStudent("105", "", 936), 1);
+    public void testAddGradeIntegration(){
+        testAddAssignmentIntegration();
+        Assert.assertEquals(service.saveNota("200", "200", 10, 10, "nothin"), 0);
     }
 
-    /*Test case for invalid group*/
     @Test
-    public void testAddStudent5() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei", -1), 1);
+    public void testAllIntegration(){
+        testAddGradeIntegration();
+        service.deleteStudent("200");
+        service.deleteTema("200");
     }
 
-    /*Test case for invalid group*/
     @Test
-    public void testAddStudent6() {
-        Assert.assertEquals(service.saveStudent("105", "Andrei", Integer.MAX_VALUE + 1), 1);
+    public void testAll() {
+        this.testAddAssignment1();
+        this.testAddStudent1();
+        this.testAddGrade1();
+        this.testAllIntegration();
     }
-
-
-
-
 }
