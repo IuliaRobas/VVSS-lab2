@@ -63,9 +63,10 @@ public class TestClass {
 
         if (service.getTemaXmlRepo().findOne(id)==null){
             Assert.assertEquals(service.saveTema(id, description, deadline, startline), 1);
+            service.deleteTema("0");
+
         }
 
-        service.deleteTema("0");
 
     }
 
