@@ -54,6 +54,21 @@ public class TestClass {
         }
     }
 
+    @Test
+    public void testAddAssignment3(){
+        String id="0";
+        String description = "descr";
+        int deadline = 9;
+        int startline = 7;
+
+        if (service.getTemaXmlRepo().findOne(id)==null){
+            Assert.assertEquals(service.saveTema(id, description, deadline, startline), 1);
+        }
+
+        service.deleteTema("0");
+
+    }
+
     /*Test case correct input for all fields*/
     @Test
     public void testAddStudent1() {
@@ -89,5 +104,7 @@ public class TestClass {
     public void testAddStudent6() {
         Assert.assertEquals(service.saveStudent("105", "Andrei", Integer.MAX_VALUE + 1), 1);
     }
+
+
 
 }
